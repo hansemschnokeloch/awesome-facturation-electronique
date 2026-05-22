@@ -7,6 +7,7 @@
 - [Norme XP Z12-012](https://www.boutique.afnor.org/fr-fr/norme/xp-z12012/formats-et-profils-des-messages-factures-et-statuts-de-cycle-de-vie-constit/fa213746/452462)
 - [Norme XP Z12-013](https://www.boutique.afnor.org/fr-fr/norme/xp-z12013/api-pour-interfacer-les-systemes-dinformations-des-entreprises-avec-les-pla/fa213747/452463)
 - [Norme XP Z12-014](https://www.boutique.afnor.org/fr-fr/norme/xp-z12014/cas-dusage-b2b-applicables-dans-le-cadre-la-reforme-facture-electronique-en/fa213748/452464)
+- [Liste des codes](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108957/Code+lists)
 
 ## PEPPOL
 
@@ -16,6 +17,7 @@
 - [Liste sur le site officiel des implémentations](https://peppol.org/tools-support/links-to-software/)
 - [Oxalis](https://github.com/OxalisCommunity/oxalis): Implémentation en java
 - [Phax](https://github.com/phax/phase4): Implémentation en java
+- [phax/phive-rules](https://github.com/phax/phive-rules/): Règle de validation
 - [Phoss-ap](https://github.com/phax/phoss-ap): A complete open-source Peppol Access Point based on phase4.
 - [Rejoindre le réseau](https://www.impots.gouv.fr/rejoindre-le-reseau-peppol)
 - [Format PINT](https://docs.peppol.eu/poac/docs/pintdocs/pint/guide/): futur format de communication
@@ -52,6 +54,9 @@
 - [Libreoffice factur-x](https://github.com/akretion/factur-x-libreoffice-extension): même auteur et functionnalité de la library en python
 - [PHP factur-x](https://github.com/atgp/factur-x): Génération, extraction, vérification. Issue de la communauté allemande.
 - [JAVA Mustang](https://www.mustangproject.org/) : Lecture, Génération, extraction, vérification, convertion de format. Issue de la communauté allemande.
+- [php zugferdublbridge](https://github.com/horstoeko/zugferdublbridge) : ZUGFeRD/Factur-X to UBL Bridge
+- [Python binary-butterfly](https://binary-butterfly.de/artikel/factur-x-zugferd-e-invoices-with-python/): ecosystème sur facture-x
+- [C# ZUGFeRD-CSharp](https://github.com/stephanstapel/ZUGFeRD-csharp)
 
 ## UBL (Universal Business Language)
 by :The Organization for the Advancement of Structured Information Standards (OASIS) https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl
@@ -69,6 +74,10 @@ Universal Business Language Version 2.3 (https://docs.oasis-open.org/ubl/UBL-2.3
 standard ouvert développé par le Centre des Nations Unies pour la facilitation du commerce et les transactions électroniques (UN/CEFACT)
 ### Library
 - [Phax java CII](https://github.com/phax/ph-cii) Java Wrapper for the UN/CEFACT Cross Industry Invoice.This library focuses currently on D16A.1 and D16B for use with the EN resulting from directive 2014/55/EU. Additionally it supports D22B for support for the Zugferd 2.3+ versions.
+
+## Exemple d'implémentation
+
+- Dolibarr: [dolibarr-fr-paconnect](https://github.com/Dolibarr/dolibarr-fr-paconnect) / [FacturXProtocol](https://github.com/Dolibarr/dolibarr-community-modules/blob/main/pdpconnectfr/class/protocols/FacturXProtocol.class.php)
 
 ## Divers
 
